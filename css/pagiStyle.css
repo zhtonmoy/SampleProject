@@ -1,0 +1,36 @@
+#container{
+    width: 600px;
+    margin: auto;
+}
+table{
+    width: 600px;
+    margin-bottom:10px;
+}
+td{
+    border-right: 1px solid #aaaaaa;
+    padding: 1em;
+    
+}
+td:last-child{
+    border-right:none;
+}
+th{
+    text-align: left;
+    padding-left: 1em;
+    background: #cac9c9;
+    border-right:1px solid #aaaaaa;
+    border-bottom:1px solid white;     
+}
+#pagination a{
+    background: #e3e3e3;
+    text-decoration: none;
+    padding: 4px 7px;
+    border: 1px solid #cac9c9;
+    font-size: 13px;
+    
+}
+#pagination strong, #pagination a:hover{
+    background: #cac9c9;
+    font-weight: normal
+    
+}
